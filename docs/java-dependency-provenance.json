@@ -1,0 +1,8 @@
+{
+  "coordinate": "com.webmania:webmania-sdk:0.1.0-preview.9",
+  "jar_sha256": "29e262427ca8ec15918c2072020c674c64f88be9427efa949b92ddd802f494e3",
+  "sources_sha256": "14edc6f7103aad8c4247d79f2a4698d590e504182df758e093de47774ef9efef",
+  "pom_sha256": "b3e861266aa02862d6e23867976e84002a1369ba46615f48d5eee291c61daa64",
+  "frontend_version": "0.1.0-alpha.10",
+  "contract_digest": "371a499f74012bb6b41f23642869dee4954e8394dcba7642edc701aedb3dd59e"
+}

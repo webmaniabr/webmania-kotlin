@@ -1,0 +1,1050 @@
+{
+  "contract_digest": "371a499f74012bb6b41f23642869dee4954e8394dcba7642edc701aedb3dd59e",
+  "java_artifact_sha256": "29e262427ca8ec15918c2072020c674c64f88be9427efa949b92ddd802f494e3",
+  "operations": [
+    {
+      "operation_id": "nfeGetCertificateValidity",
+      "scope": "Nfe",
+      "request_type": "com.webmania.sdk.model.api1fiscal.NfeGetCertificateValidityRequest",
+      "response_type": "com.webmania.sdk.model.api1fiscal.NfeGetCertificateValidityResponse",
+      "enabled": true,
+      "module": "api1/fiscal.openapi.json",
+      "method": "GET",
+      "path": "/1/nfe/certificado/"
+    },
+    {
+      "operation_id": "nfeGetSefazStatus",
+      "scope": "Nfe",
+      "request_type": "com.webmania.sdk.model.api1fiscal.NfeGetSefazStatusRequest",
+      "response_type": "com.webmania.sdk.model.api1fiscal.NfeGetSefazStatusResponse",
+      "enabled": true,
+      "module": "api1/fiscal.openapi.json",
+      "method": "GET",
+      "path": "/1/nfe/sefaz/"
+    },
+    {
+      "operation_id": "nfeGetDocument",
+      "scope": "Nfe",
+      "request_type": "com.webmania.sdk.model.api1fiscal.NfeGetDocumentRequest",
+      "response_type": "com.webmania.sdk.model.api1fiscal.NfeGetDocumentResponse",
+      "enabled": true,
+      "module": "api1/fiscal.openapi.json",
+      "method": "GET",
+      "path": "/1/nfe/consulta/"
+    },
+    {
+      "operation_id": "nfeQueryDocument",
+      "scope": "Nfe",
+      "request_type": "com.webmania.sdk.model.api1fiscal.NfeQueryDocumentRequest",
+      "response_type": "com.webmania.sdk.model.api1fiscal.NfeQueryDocumentResponse",
+      "enabled": true,
+      "module": "api1/fiscal.openapi.json",
+      "method": "POST",
+      "path": "/1/nfe/consulta/"
+    },
+    {
+      "operation_id": "nfeCreateCorrection",
+      "scope": "Nfe",
+      "request_type": "com.webmania.sdk.model.api1fiscal.NfeCreateCorrectionRequest",
+      "response_type": "com.webmania.sdk.model.api1fiscal.NfeCreateCorrectionResponse",
+      "enabled": true,
+      "module": "api1/fiscal.openapi.json",
+      "method": "POST",
+      "path": "/1/nfe/cartacorrecao/"
+    },
+    {
+      "operation_id": "nfeCreateManifestation",
+      "scope": "Nfe",
+      "request_type": "com.webmania.sdk.model.api1fiscal.NfeCreateManifestationRequest",
+      "response_type": "com.webmania.sdk.model.api1fiscal.NfeCreateManifestationResponse",
+      "enabled": true,
+      "module": "api1/fiscal.openapi.json",
+      "method": "POST",
+      "path": "/1/nfe/manifesta/"
+    },
+    {
+      "operation_id": "nfeCancelDocument",
+      "scope": "Nfe",
+      "request_type": "com.webmania.sdk.model.api1fiscal.NfeCancelDocumentRequest",
+      "response_type": "com.webmania.sdk.model.api1fiscal.NfeCancelDocumentResponse",
+      "enabled": true,
+      "module": "api1/fiscal.openapi.json",
+      "method": "PUT",
+      "path": "/1/nfe/cancelar/"
+    },
+    {
+      "operation_id": "nfeVoidNumbering",
+      "scope": "Nfe",
+      "request_type": "com.webmania.sdk.model.api1fiscal.NfeVoidNumberingRequest",
+      "response_type": "com.webmania.sdk.model.api1fiscal.NfeVoidNumberingResponse",
+      "enabled": true,
+      "module": "api1/fiscal.openapi.json",
+      "method": "PUT",
+      "path": "/1/nfe/inutilizar/"
+    },
+    {
+      "operation_id": "nfeCreatePaymentEvent",
+      "scope": "Nfe",
+      "request_type": "com.webmania.sdk.model.api1fiscal.NfeCreatePaymentEventRequest",
+      "response_type": "com.webmania.sdk.model.api1fiscal.NfeCreatePaymentEventResponse",
+      "enabled": true,
+      "module": "api1/fiscal.openapi.json",
+      "method": "POST",
+      "path": "/1/nfe/conciliacao/"
+    },
+    {
+      "operation_id": "nfeCancelPaymentEvent",
+      "scope": "Nfe",
+      "request_type": "com.webmania.sdk.model.api1fiscal.NfeCancelPaymentEventRequest",
+      "response_type": "com.webmania.sdk.model.api1fiscal.NfeCancelPaymentEventResponse",
+      "enabled": true,
+      "module": "api1/fiscal.openapi.json",
+      "method": "PUT",
+      "path": "/1/nfe/conciliacao/cancelar/"
+    },
+    {
+      "operation_id": "nfeCancelIbsCbsEvent",
+      "scope": "Nfe",
+      "request_type": "com.webmania.sdk.model.api1fiscal.NfeCancelIbsCbsEventRequest",
+      "response_type": "com.webmania.sdk.model.api1fiscal.NfeCancelIbsCbsEventResponse",
+      "enabled": true,
+      "module": "api1/fiscal.openapi.json",
+      "method": "PUT",
+      "path": "/1/nfe/evento-ibs-cbs/cancelar/"
+    },
+    {
+      "operation_id": "nfeListTaxClasses",
+      "scope": "Nfe",
+      "request_type": "com.webmania.sdk.model.api1fiscal.NfeListTaxClassesRequest",
+      "response_type": "com.webmania.sdk.model.api1fiscal.NfeListTaxClassesResponse",
+      "enabled": true,
+      "module": "api1/fiscal.openapi.json",
+      "method": "GET",
+      "path": "/1/nfe/classe-imposto/"
+    },
+    {
+      "operation_id": "nfeDeleteTaxClasses",
+      "scope": "Nfe",
+      "request_type": "com.webmania.sdk.model.api1fiscal.NfeDeleteTaxClassesRequest",
+      "response_type": "com.webmania.sdk.model.api1fiscal.NfeDeleteTaxClassesResponse",
+      "enabled": true,
+      "module": "api1/fiscal.openapi.json",
+      "method": "DELETE",
+      "path": "/1/nfe/classe-imposto/"
+    },
+    {
+      "operation_id": "nfeSaveTaxClasses",
+      "scope": "Nfe",
+      "request_type": "com.webmania.sdk.model.api1fiscal.NfeSaveTaxClassesRequest",
+      "response_type": "com.webmania.sdk.model.api1fiscal.NfeSaveTaxClassesResponse",
+      "enabled": true,
+      "module": "api1/fiscal.openapi.json",
+      "method": "POST",
+      "path": "/1/nfe/classe-imposto/"
+    },
+    {
+      "operation_id": "nfeIssueDocument",
+      "scope": "Nfe",
+      "request_type": "com.webmania.sdk.model.api1fiscal.NfeIssueDocumentRequest",
+      "response_type": "com.webmania.sdk.model.api1fiscal.NfeIssueDocumentResponse",
+      "enabled": true,
+      "module": "api1/fiscal.openapi.json",
+      "method": "POST",
+      "path": "/1/nfe/emissao/"
+    },
+    {
+      "operation_id": "nfeIssueReturn",
+      "scope": "Nfe",
+      "request_type": "com.webmania.sdk.model.api1fiscal.NfeIssueReturnRequest",
+      "response_type": "com.webmania.sdk.model.api1fiscal.NfeIssueReturnResponse",
+      "enabled": true,
+      "module": "api1/fiscal.openapi.json",
+      "method": "POST",
+      "path": "/1/nfe/devolucao/"
+    },
+    {
+      "operation_id": "nfeIssueAdjustment",
+      "scope": "Nfe",
+      "request_type": "com.webmania.sdk.model.api1fiscal.NfeIssueAdjustmentRequest",
+      "response_type": "com.webmania.sdk.model.api1fiscal.NfeIssueAdjustmentResponse",
+      "enabled": true,
+      "module": "api1/fiscal.openapi.json",
+      "method": "POST",
+      "path": "/1/nfe/ajuste/"
+    },
+    {
+      "operation_id": "nfeIssueComplement",
+      "scope": "Nfe",
+      "request_type": "com.webmania.sdk.model.api1fiscal.NfeIssueComplementRequest",
+      "response_type": "com.webmania.sdk.model.api1fiscal.NfeIssueComplementResponse",
+      "enabled": true,
+      "module": "api1/fiscal.openapi.json",
+      "method": "POST",
+      "path": "/1/nfe/complementar/"
+    },
+    {
+      "operation_id": "fiscalUpdateCompany",
+      "scope": "Nfe",
+      "request_type": "com.webmania.sdk.model.api1fiscal.FiscalUpdateCompanyRequest",
+      "response_type": "com.webmania.sdk.model.api1fiscal.FiscalUpdateCompanyResponse",
+      "enabled": true,
+      "module": "api1/fiscal.openapi.json",
+      "method": "POST",
+      "path": "/1/nfe/empresa/"
+    },
+    {
+      "operation_id": "fiscalCreateOrPollReport",
+      "scope": "Nfe",
+      "request_type": "com.webmania.sdk.model.api1fiscal.FiscalCreateOrPollReportRequest",
+      "response_type": "com.webmania.sdk.model.api1fiscal.FiscalCreateOrPollReportResponse",
+      "enabled": true,
+      "module": "api1/fiscal.openapi.json",
+      "method": "POST",
+      "path": "/1/nfe/relatorios/"
+    },
+    {
+      "operation_id": "nfeCreateIbsCbsEvent",
+      "scope": "Nfe",
+      "request_type": "com.webmania.sdk.model.api1fiscal.NfeCreateIbsCbsEventRequest",
+      "response_type": "com.webmania.sdk.model.api1fiscal.NfeCreateIbsCbsEventResponse",
+      "enabled": true,
+      "module": "api1/fiscal.openapi.json",
+      "method": "POST",
+      "path": "/1/nfe/evento-ibs-cbs/"
+    },
+    {
+      "operation_id": "monitorSearchDocuments",
+      "scope": "Monitor",
+      "request_type": "com.webmania.sdk.model.api2monitordocuments.MonitorSearchDocumentsRequest",
+      "response_type": "com.webmania.sdk.model.api2monitordocuments.MonitorSearchDocumentsResponse",
+      "enabled": true,
+      "module": "api2/monitor-documents.openapi.json",
+      "method": "POST",
+      "path": "/2/monitor/documentos"
+    },
+    {
+      "operation_id": "monitorGetDocument",
+      "scope": "Monitor",
+      "request_type": "com.webmania.sdk.model.api2monitordocuments.MonitorGetDocumentRequest",
+      "response_type": "com.webmania.sdk.model.api2monitordocuments.MonitorDocument",
+      "enabled": true,
+      "module": "api2/monitor-documents.openapi.json",
+      "method": "GET",
+      "path": "/2/monitor/documentos/{fd}"
+    },
+    {
+      "operation_id": "monitorListDocumentEvents",
+      "scope": "Monitor",
+      "request_type": "com.webmania.sdk.model.api2monitordocuments.MonitorListDocumentEventsRequest",
+      "response_type": "com.webmania.sdk.model.api2monitordocuments.MonitorListDocumentEventsResponse",
+      "enabled": true,
+      "module": "api2/monitor-documents.openapi.json",
+      "method": "GET",
+      "path": "/2/monitor/documentos/{fd}/eventos"
+    },
+    {
+      "operation_id": "monitorManifestDocument",
+      "scope": "Monitor",
+      "request_type": "com.webmania.sdk.model.api2monitordocuments.MonitorManifestDocumentRequest",
+      "response_type": "com.webmania.sdk.model.api2monitordocuments.MonitorEvent",
+      "enabled": true,
+      "module": "api2/monitor-documents.openapi.json",
+      "method": "POST",
+      "path": "/2/monitor/documentos/{fd}/eventos"
+    },
+    {
+      "operation_id": "monitorListReports",
+      "scope": "Monitor",
+      "request_type": "com.webmania.sdk.model.api2monitordocuments.MonitorListReportsRequest",
+      "response_type": "com.webmania.sdk.model.api2monitordocuments.MonitorReportPage",
+      "enabled": true,
+      "module": "api2/monitor-documents.openapi.json",
+      "method": "GET",
+      "path": "/2/monitor/documentos/relatorios"
+    },
+    {
+      "operation_id": "monitorDownloadReport",
+      "scope": "Monitor",
+      "request_type": "com.webmania.sdk.model.api2monitordocuments.MonitorDownloadReportRequest",
+      "response_type": "com.webmania.sdk.Download",
+      "enabled": true,
+      "module": "api2/monitor-documents.openapi.json",
+      "method": "GET",
+      "path": "/2/monitor/documentos/relatorios/{report}"
+    },
+    {
+      "operation_id": "monitorImportDocument",
+      "scope": "Monitor",
+      "request_type": "com.webmania.sdk.model.api2monitordocuments.MonitorImportDocumentRequest",
+      "response_type": "com.webmania.sdk.model.api2monitordocuments.MonitorImportDocumentResponse",
+      "enabled": true,
+      "module": "api2/monitor-documents.openapi.json",
+      "method": "POST",
+      "path": "/2/monitor/documentos/importacoes"
+    },
+    {
+      "operation_id": "monitorGetImportStatus",
+      "scope": "Monitor",
+      "request_type": "com.webmania.sdk.model.api2monitordocuments.MonitorGetImportStatusRequest",
+      "response_type": "com.webmania.sdk.model.api2monitordocuments.MonitorImportStatus",
+      "enabled": true,
+      "module": "api2/monitor-documents.openapi.json",
+      "method": "GET",
+      "path": "/2/monitor/documentos/importacoes/{uuid}"
+    },
+    {
+      "operation_id": "monitorCreateCompany",
+      "scope": "Monitor",
+      "request_type": "com.webmania.sdk.model.api2monitormanagement.MonitorCreateCompanyParameters",
+      "response_type": "com.webmania.sdk.model.api2monitormanagement.MonitorCompany",
+      "enabled": true,
+      "module": "api2/monitor-management.openapi.json",
+      "method": "POST",
+      "path": "/2/monitor/empresas"
+    },
+    {
+      "operation_id": "monitorUpdateCompany",
+      "scope": "Monitor",
+      "request_type": "com.webmania.sdk.model.api2monitormanagement.MonitorUpdateCompanyParameters",
+      "response_type": "com.webmania.sdk.model.api2monitormanagement.MonitorCompany",
+      "enabled": true,
+      "module": "api2/monitor-management.openapi.json",
+      "method": "PUT",
+      "path": "/2/monitor/empresas/{company}"
+    },
+    {
+      "operation_id": "monitorCreateCompanyMunicipality",
+      "scope": "Monitor",
+      "request_type": "com.webmania.sdk.model.api2monitormanagement.MonitorCreateCompanyMunicipalityRequest",
+      "response_type": "com.webmania.sdk.model.api2monitormanagement.MonitorMunicipalityRegistration",
+      "enabled": true,
+      "module": "api2/monitor-management.openapi.json",
+      "method": "POST",
+      "path": "/2/monitor/empresas/{company}/municipios-nfse"
+    },
+    {
+      "operation_id": "monitorUpdateCompanyMunicipality",
+      "scope": "Monitor",
+      "request_type": "com.webmania.sdk.model.api2monitormanagement.MonitorUpdateCompanyMunicipalityRequest",
+      "response_type": "com.webmania.sdk.model.api2monitormanagement.MonitorMunicipalityRegistration",
+      "enabled": true,
+      "module": "api2/monitor-management.openapi.json",
+      "method": "PUT",
+      "path": "/2/monitor/empresas/{company}/municipios-nfse/{download}"
+    },
+    {
+      "operation_id": "monitorDeleteCompanyMunicipality",
+      "scope": "Monitor",
+      "request_type": "com.webmania.sdk.model.api2monitormanagement.MonitorDeleteCompanyMunicipalityRequest",
+      "response_type": "com.webmania.sdk.model.api2monitormanagement.MonitorDeleteCompanyMunicipalityResponse",
+      "enabled": true,
+      "module": "api2/monitor-management.openapi.json",
+      "method": "DELETE",
+      "path": "/2/monitor/empresas/{company}/municipios-nfse/{download}"
+    },
+    {
+      "operation_id": "monitorListCompanies",
+      "scope": "Monitor",
+      "request_type": "com.webmania.sdk.model.api2monitorreads.MonitorListCompaniesRequest",
+      "response_type": "com.webmania.sdk.model.api2monitorreads.MonitorCompanyPage",
+      "enabled": true,
+      "module": "api2/monitor-reads.openapi.json",
+      "method": "GET",
+      "path": "/2/monitor/empresas"
+    },
+    {
+      "operation_id": "monitorGetCompany",
+      "scope": "Monitor",
+      "request_type": "com.webmania.sdk.model.api2monitorreads.MonitorGetCompanyRequest",
+      "response_type": "com.webmania.sdk.model.api2monitorreads.MonitorCompany",
+      "enabled": true,
+      "module": "api2/monitor-reads.openapi.json",
+      "method": "GET",
+      "path": "/2/monitor/empresas/{company}"
+    },
+    {
+      "operation_id": "monitorListCompanyMunicipalities",
+      "scope": "Monitor",
+      "request_type": "com.webmania.sdk.model.api2monitorreads.MonitorListCompanyMunicipalitiesRequest",
+      "response_type": "com.webmania.sdk.model.api2monitorreads.MonitorMunicipalityPage",
+      "enabled": true,
+      "module": "api2/monitor-reads.openapi.json",
+      "method": "GET",
+      "path": "/2/monitor/empresas/{company}/municipios-nfse"
+    },
+    {
+      "operation_id": "monitorGetCompanyMunicipality",
+      "scope": "Monitor",
+      "request_type": "com.webmania.sdk.model.api2monitorreads.MonitorGetCompanyMunicipalityRequest",
+      "response_type": "com.webmania.sdk.model.api2monitorreads.MonitorMunicipalityRegistration",
+      "enabled": true,
+      "module": "api2/monitor-reads.openapi.json",
+      "method": "GET",
+      "path": "/2/monitor/empresas/{company}/municipios-nfse/{download}"
+    },
+    {
+      "operation_id": "monitorListAvailableMunicipalities",
+      "scope": "Monitor",
+      "request_type": "com.webmania.sdk.model.api2monitorreads.MonitorListAvailableMunicipalitiesRequest",
+      "response_type": "com.webmania.sdk.model.api2monitorreads.MonitorListAvailableMunicipalitiesResponse",
+      "enabled": true,
+      "module": "api2/monitor-reads.openapi.json",
+      "method": "GET",
+      "path": "/2/monitor/municipios-nfse"
+    },
+    {
+      "operation_id": "monitorGetDownloadStatistics",
+      "scope": "Monitor",
+      "request_type": "com.webmania.sdk.model.api2monitorreads.MonitorGetDownloadStatisticsRequest",
+      "response_type": "com.webmania.sdk.model.api2monitorreads.MonitorDownloadStatistics",
+      "enabled": true,
+      "module": "api2/monitor-reads.openapi.json",
+      "method": "GET",
+      "path": "/2/monitor/estatisticas/downloads"
+    },
+    {
+      "operation_id": "emitterIssueCte",
+      "scope": "Emitter",
+      "request_type": "com.webmania.sdk.model.api2cteissuance.EmitterIssueCteRequest",
+      "response_type": "com.webmania.sdk.model.api2cteissuance.CteFiscalResponse",
+      "enabled": true,
+      "module": "api2/cte-issuance.openapi.json",
+      "method": "POST",
+      "path": "/2/cte/emissao"
+    },
+    {
+      "operation_id": "emitterIssueSimplifiedCte",
+      "scope": "Emitter",
+      "request_type": "com.webmania.sdk.model.api2cteissuance.EmitterIssueSimplifiedCteRequest",
+      "response_type": "com.webmania.sdk.model.api2cteissuance.CteFiscalResponse",
+      "enabled": true,
+      "module": "api2/cte-issuance.openapi.json",
+      "method": "POST",
+      "path": "/2/cte/emissao/simplificada"
+    },
+    {
+      "operation_id": "emitterCancelCte",
+      "scope": "Emitter",
+      "request_type": "com.webmania.sdk.model.api2cteissuance.EmitterCancelCteRequest",
+      "response_type": "com.webmania.sdk.model.api2cteissuance.FiscalEventResponse",
+      "enabled": true,
+      "module": "api2/cte-issuance.openapi.json",
+      "method": "PUT",
+      "path": "/2/cte/cancelar"
+    },
+    {
+      "operation_id": "emitterCorrectCte",
+      "scope": "Emitter",
+      "request_type": "com.webmania.sdk.model.api2cteissuance.EmitterCorrectCteRequest",
+      "response_type": "com.webmania.sdk.model.api2cteissuance.FiscalEventResponse",
+      "enabled": true,
+      "module": "api2/cte-issuance.openapi.json",
+      "method": "POST",
+      "path": "/2/cte/correcao"
+    },
+    {
+      "operation_id": "emitterConfirmCteDelivery",
+      "scope": "Emitter",
+      "request_type": "com.webmania.sdk.model.api2cteissuance.EmitterConfirmCteDeliveryRequest",
+      "response_type": "com.webmania.sdk.model.api2cteissuance.FiscalEventResponse",
+      "enabled": true,
+      "module": "api2/cte-issuance.openapi.json",
+      "method": "POST",
+      "path": "/2/cte/entrega"
+    },
+    {
+      "operation_id": "emitterCancelCteDelivery",
+      "scope": "Emitter",
+      "request_type": "com.webmania.sdk.model.api2cteissuance.EmitterCancelCteDeliveryRequest",
+      "response_type": "com.webmania.sdk.model.api2cteissuance.FiscalEventResponse",
+      "enabled": true,
+      "module": "api2/cte-issuance.openapi.json",
+      "method": "PUT",
+      "path": "/2/cte/entrega/cancelar"
+    },
+    {
+      "operation_id": "emitterLinkCtePayment",
+      "scope": "Emitter",
+      "request_type": "com.webmania.sdk.model.api2cteissuance.EmitterLinkCtePaymentRequest",
+      "response_type": "com.webmania.sdk.model.api2cteissuance.FiscalEventResponse",
+      "enabled": true,
+      "module": "api2/cte-issuance.openapi.json",
+      "method": "POST",
+      "path": "/2/cte/evento"
+    },
+    {
+      "operation_id": "emitterCancelCtePaymentLink",
+      "scope": "Emitter",
+      "request_type": "com.webmania.sdk.model.api2cteissuance.EmitterCancelCtePaymentLinkRequest",
+      "response_type": "com.webmania.sdk.model.api2cteissuance.FiscalEventResponse",
+      "enabled": true,
+      "module": "api2/cte-issuance.openapi.json",
+      "method": "PUT",
+      "path": "/2/cte/evento/cancelar"
+    },
+    {
+      "operation_id": "emitterGetCte",
+      "scope": "Emitter",
+      "request_type": "com.webmania.sdk.model.api2cteissuance.EmitterGetCteRequest",
+      "response_type": "com.webmania.sdk.model.api2cteissuance.CteFiscalResponse",
+      "enabled": true,
+      "module": "api2/cte-issuance.openapi.json",
+      "method": "GET",
+      "path": "/2/cte/consulta/{identifier}"
+    },
+    {
+      "operation_id": "emitterGetCtePaymentEvents",
+      "scope": "Emitter",
+      "request_type": "com.webmania.sdk.model.api2cteissuance.EmitterGetCtePaymentEventsRequest",
+      "response_type": "com.webmania.sdk.model.api2cteissuance.CtePaymentEvents",
+      "enabled": true,
+      "module": "api2/cte-issuance.openapi.json",
+      "method": "GET",
+      "path": "/2/cte/consulta/evento/{identifier}"
+    },
+    {
+      "operation_id": "emitterIssueDce",
+      "scope": "Emitter",
+      "request_type": "com.webmania.sdk.model.api2dceissuance.EmitterIssueDceRequest",
+      "response_type": "com.webmania.sdk.model.api2dceissuance.DceFiscalResponse",
+      "enabled": true,
+      "module": "api2/dce-issuance.openapi.json",
+      "method": "POST",
+      "path": "/2/dce/emissao"
+    },
+    {
+      "operation_id": "emitterCancelDce",
+      "scope": "Emitter",
+      "request_type": "com.webmania.sdk.model.api2dceissuance.EmitterCancelDceRequest",
+      "response_type": "com.webmania.sdk.model.api2dceissuance.FiscalEventResponse",
+      "enabled": true,
+      "module": "api2/dce-issuance.openapi.json",
+      "method": "PUT",
+      "path": "/2/dce/cancelar"
+    },
+    {
+      "operation_id": "emitterGetDce",
+      "scope": "Emitter",
+      "request_type": "com.webmania.sdk.model.api2dceissuance.EmitterGetDceRequest",
+      "response_type": "com.webmania.sdk.model.api2dceissuance.DceFiscalResponse",
+      "enabled": true,
+      "module": "api2/dce-issuance.openapi.json",
+      "method": "GET",
+      "path": "/2/dce/consulta/{identifier}"
+    },
+    {
+      "operation_id": "emitterGetNfseProviderStatus",
+      "scope": "Emitter",
+      "request_type": "com.webmania.sdk.model.api2emitterreads.EmitterGetNfseProviderStatusRequest",
+      "response_type": "com.webmania.sdk.model.api2emitterreads.EmitterGetNfseProviderStatusResponse",
+      "enabled": true,
+      "module": "api2/emitter-reads.openapi.json",
+      "method": "GET",
+      "path": "/2/nfse/status"
+    },
+    {
+      "operation_id": "emitterGetNfcomServiceStatus",
+      "scope": "Emitter",
+      "request_type": "com.webmania.sdk.model.api2emitterreads.EmitterGetNfcomServiceStatusRequest",
+      "response_type": "com.webmania.sdk.model.api2emitterreads.EmitterGetNfcomServiceStatusResponse",
+      "enabled": true,
+      "module": "api2/emitter-reads.openapi.json",
+      "method": "GET",
+      "path": "/2/nfcom/status"
+    },
+    {
+      "operation_id": "emitterGetNfse",
+      "scope": "Emitter",
+      "request_type": "com.webmania.sdk.model.api2emitterreads.EmitterGetNfseRequest",
+      "response_type": "com.webmania.sdk.model.api2emitterreads.EmitterGetNfseResponse",
+      "enabled": true,
+      "module": "api2/emitter-reads.openapi.json",
+      "method": "GET",
+      "path": "/2/nfse/consulta/{identifier}"
+    },
+    {
+      "operation_id": "emitterGetNfcom",
+      "scope": "Emitter",
+      "request_type": "com.webmania.sdk.model.api2emitterreads.EmitterGetNfcomRequest",
+      "response_type": "com.webmania.sdk.model.api2emitterreads.EmitterGetNfcomResponse",
+      "enabled": true,
+      "module": "api2/emitter-reads.openapi.json",
+      "method": "GET",
+      "path": "/2/nfcom/consulta/{identifier}"
+    },
+    {
+      "operation_id": "emitterGetNfcomPaymentEvents",
+      "scope": "Emitter",
+      "request_type": "com.webmania.sdk.model.api2emitterreads.EmitterGetNfcomPaymentEventsRequest",
+      "response_type": "com.webmania.sdk.model.api2emitterreads.EmitterGetNfcomPaymentEventsResponse",
+      "enabled": true,
+      "module": "api2/emitter-reads.openapi.json",
+      "method": "GET",
+      "path": "/2/nfcom/consulta/evento/{identifier}"
+    },
+    {
+      "operation_id": "emitterManifestNfse",
+      "scope": "Emitter",
+      "request_type": "com.webmania.sdk.model.api2emitterreads.EmitterManifestNfseRequest",
+      "response_type": "com.webmania.sdk.model.api2emitterreads.EmitterManifestNfseResponse",
+      "enabled": true,
+      "module": "api2/emitter-reads.openapi.json",
+      "method": "PUT",
+      "path": "/2/nfse/manifestar"
+    },
+    {
+      "operation_id": "emitterIssueMdfe",
+      "scope": "Emitter",
+      "request_type": "com.webmania.sdk.model.api2mdfeissuance.EmitterIssueMdfeRequest",
+      "response_type": "com.webmania.sdk.model.api2mdfeissuance.MdfeFiscalResponse",
+      "enabled": true,
+      "module": "api2/mdfe-issuance.openapi.json",
+      "method": "POST",
+      "path": "/2/mdfe/emissao"
+    },
+    {
+      "operation_id": "emitterCloseMdfe",
+      "scope": "Emitter",
+      "request_type": "com.webmania.sdk.model.api2mdfeissuance.EmitterCloseMdfeRequest",
+      "response_type": "com.webmania.sdk.model.api2mdfeissuance.FiscalEventResponse",
+      "enabled": true,
+      "module": "api2/mdfe-issuance.openapi.json",
+      "method": "PUT",
+      "path": "/2/mdfe/encerrar"
+    },
+    {
+      "operation_id": "emitterCancelMdfe",
+      "scope": "Emitter",
+      "request_type": "com.webmania.sdk.model.api2mdfeissuance.EmitterCancelMdfeRequest",
+      "response_type": "com.webmania.sdk.model.api2mdfeissuance.FiscalEventResponse",
+      "enabled": true,
+      "module": "api2/mdfe-issuance.openapi.json",
+      "method": "PUT",
+      "path": "/2/mdfe/cancelar"
+    },
+    {
+      "operation_id": "emitterAddMdfeConductor",
+      "scope": "Emitter",
+      "request_type": "com.webmania.sdk.model.api2mdfeissuance.EmitterAddMdfeConductorRequest",
+      "response_type": "com.webmania.sdk.model.api2mdfeissuance.FiscalEventResponse",
+      "enabled": true,
+      "module": "api2/mdfe-issuance.openapi.json",
+      "method": "PUT",
+      "path": "/2/mdfe/condutor"
+    },
+    {
+      "operation_id": "emitterGetMdfe",
+      "scope": "Emitter",
+      "request_type": "com.webmania.sdk.model.api2mdfeissuance.EmitterGetMdfeRequest",
+      "response_type": "com.webmania.sdk.model.api2mdfeissuance.MdfeFiscalResponse",
+      "enabled": true,
+      "module": "api2/mdfe-issuance.openapi.json",
+      "method": "GET",
+      "path": "/2/mdfe/consulta/{key}"
+    },
+    {
+      "operation_id": "emitterIssueNfcom",
+      "scope": "Emitter",
+      "request_type": "com.webmania.sdk.model.api2nfcomissuance.EmitterIssueNfcomRequest",
+      "response_type": "com.webmania.sdk.model.api2nfcomissuance.NfcomFiscalResponse",
+      "enabled": true,
+      "module": "api2/nfcom-issuance.openapi.json",
+      "method": "POST",
+      "path": "/2/nfcom/emissao"
+    },
+    {
+      "operation_id": "emitterCancelNfcom",
+      "scope": "Emitter",
+      "request_type": "com.webmania.sdk.model.api2nfcomissuance.EmitterCancelNfcomRequest",
+      "response_type": "com.webmania.sdk.model.api2nfcomissuance.FiscalEventResponse",
+      "enabled": true,
+      "module": "api2/nfcom-issuance.openapi.json",
+      "method": "PUT",
+      "path": "/2/nfcom/cancelar"
+    },
+    {
+      "operation_id": "emitterIssueNfse",
+      "scope": "Emitter",
+      "request_type": "com.webmania.sdk.model.api2nfseissuance.EmitterIssueNfseRequest",
+      "response_type": "com.webmania.sdk.model.api2nfseissuance.NfseFiscalResponse",
+      "enabled": true,
+      "module": "api2/nfse-issuance.openapi.json",
+      "method": "POST",
+      "path": "/2/nfse/emissao"
+    },
+    {
+      "operation_id": "emitterCancelNfse",
+      "scope": "Emitter",
+      "request_type": "com.webmania.sdk.model.api2nfseissuance.EmitterCancelNfseRequest",
+      "response_type": "com.webmania.sdk.model.api2nfseissuance.NfseFiscalResponse",
+      "enabled": true,
+      "module": "api2/nfse-issuance.openapi.json",
+      "method": "PUT",
+      "path": "/2/nfse/cancelar"
+    },
+    {
+      "operation_id": "emitterReplaceNfse",
+      "scope": "Emitter",
+      "request_type": "com.webmania.sdk.model.api2nfseissuance.EmitterReplaceNfseRequest",
+      "response_type": "com.webmania.sdk.model.api2nfseissuance.NfseFiscalResponse",
+      "enabled": true,
+      "module": "api2/nfse-issuance.openapi.json",
+      "method": "POST",
+      "path": "/2/nfse/substituir"
+    },
+    {
+      "operation_id": "b2bV1CreateCompanies",
+      "scope": "Reseller",
+      "request_type": "com.webmania.sdk.model.api1b2b.B2bV1CreateCompaniesRequest",
+      "response_type": "com.webmania.sdk.model.api1b2b.B2bV1CreateCompaniesResponse",
+      "enabled": true,
+      "module": "api1/b2b.openapi.json",
+      "method": "POST",
+      "path": "/api/1/b2b/empresas/"
+    },
+    {
+      "operation_id": "b2bV1ListCompanies",
+      "scope": "Reseller",
+      "request_type": "com.webmania.sdk.model.api1b2b.B2bV1ListCompaniesRequest",
+      "response_type": "com.webmania.sdk.model.api1b2b.B2bV1ListCompaniesResponse",
+      "enabled": true,
+      "module": "api1/b2b.openapi.json",
+      "method": "GET",
+      "path": "/api/1/b2b/empresas/"
+    },
+    {
+      "operation_id": "b2bV1GetProcessedRequests",
+      "scope": "Reseller",
+      "request_type": "com.webmania.sdk.model.api1b2b.B2bV1GetProcessedRequestsRequest",
+      "response_type": "com.webmania.sdk.model.api1b2b.B2bV1GetProcessedRequestsResponse",
+      "enabled": true,
+      "module": "api1/b2b.openapi.json",
+      "method": "GET",
+      "path": "/api/1/b2b/requests/"
+    },
+    {
+      "operation_id": "nfeDownloadDanfe",
+      "scope": "NfeFiles",
+      "request_type": "com.webmania.sdk.model.api1files.NfeDownloadDanfeRequest",
+      "response_type": "com.webmania.sdk.Download",
+      "enabled": true,
+      "module": "api1/files.openapi.json",
+      "method": "GET",
+      "path": "/danfe/{identifier}/"
+    },
+    {
+      "operation_id": "nfeDownloadSimpleDanfe",
+      "scope": "NfeFiles",
+      "request_type": "com.webmania.sdk.model.api1files.NfeDownloadSimpleDanfeRequest",
+      "response_type": "com.webmania.sdk.Download",
+      "enabled": true,
+      "module": "api1/files.openapi.json",
+      "method": "GET",
+      "path": "/danfe/simples/{identifier}/"
+    },
+    {
+      "operation_id": "nfeDownloadLabelDanfe",
+      "scope": "NfeFiles",
+      "request_type": "com.webmania.sdk.model.api1files.NfeDownloadLabelDanfeRequest",
+      "response_type": "com.webmania.sdk.Download",
+      "enabled": true,
+      "module": "api1/files.openapi.json",
+      "method": "GET",
+      "path": "/danfe/etiqueta/{identifier}/"
+    },
+    {
+      "operation_id": "nfeDownloadCorrectionPdf",
+      "scope": "NfeFiles",
+      "request_type": "com.webmania.sdk.model.api1files.NfeDownloadCorrectionPdfRequest",
+      "response_type": "com.webmania.sdk.Download",
+      "enabled": true,
+      "module": "api1/files.openapi.json",
+      "method": "GET",
+      "path": "/dacce/{identifier}/"
+    },
+    {
+      "operation_id": "nfeDownloadCorrectionPdfSequence",
+      "scope": "NfeFiles",
+      "request_type": "com.webmania.sdk.model.api1files.NfeDownloadCorrectionPdfSequenceRequest",
+      "response_type": "com.webmania.sdk.Download",
+      "enabled": true,
+      "module": "api1/files.openapi.json",
+      "method": "GET",
+      "path": "/dacce/{identifier}/{event}/"
+    },
+    {
+      "operation_id": "nfeDownloadXml",
+      "scope": "NfeFiles",
+      "request_type": "com.webmania.sdk.model.api1files.NfeDownloadXmlRequest",
+      "response_type": "com.webmania.sdk.Download",
+      "enabled": true,
+      "module": "api1/files.openapi.json",
+      "method": "GET",
+      "path": "/xmlnfe/{identifier}/"
+    },
+    {
+      "operation_id": "nfeDownloadCancellationXml",
+      "scope": "NfeFiles",
+      "request_type": "com.webmania.sdk.model.api1files.NfeDownloadCancellationXmlRequest",
+      "response_type": "com.webmania.sdk.Download",
+      "enabled": true,
+      "module": "api1/files.openapi.json",
+      "method": "GET",
+      "path": "/xmlnfe/{identifier}/cancelamento"
+    },
+    {
+      "operation_id": "nfeDownloadCorrectionXml",
+      "scope": "NfeFiles",
+      "request_type": "com.webmania.sdk.model.api1files.NfeDownloadCorrectionXmlRequest",
+      "response_type": "com.webmania.sdk.Download",
+      "enabled": true,
+      "module": "api1/files.openapi.json",
+      "method": "GET",
+      "path": "/xmlcce/{identifier}/"
+    },
+    {
+      "operation_id": "nfeDownloadCorrectionXmlSequence",
+      "scope": "NfeFiles",
+      "request_type": "com.webmania.sdk.model.api1files.NfeDownloadCorrectionXmlSequenceRequest",
+      "response_type": "com.webmania.sdk.Download",
+      "enabled": true,
+      "module": "api1/files.openapi.json",
+      "method": "GET",
+      "path": "/xmlcce/{identifier}/{event}/"
+    },
+    {
+      "operation_id": "nfeDownloadManifestationXml",
+      "scope": "NfeFiles",
+      "request_type": "com.webmania.sdk.model.api1files.NfeDownloadManifestationXmlRequest",
+      "response_type": "com.webmania.sdk.Download",
+      "enabled": true,
+      "module": "api1/files.openapi.json",
+      "method": "GET",
+      "path": "/xmlmde/{uuid}/"
+    },
+    {
+      "operation_id": "nfeDownloadPaymentEventXml",
+      "scope": "NfeFiles",
+      "request_type": "com.webmania.sdk.model.api1files.NfeDownloadPaymentEventXmlRequest",
+      "response_type": "com.webmania.sdk.Download",
+      "enabled": true,
+      "module": "api1/files.openapi.json",
+      "method": "GET",
+      "path": "/xmleconf/{identifier}/"
+    },
+    {
+      "operation_id": "nfeDownloadPaymentEventXmlSequence",
+      "scope": "NfeFiles",
+      "request_type": "com.webmania.sdk.model.api1files.NfeDownloadPaymentEventXmlSequenceRequest",
+      "response_type": "com.webmania.sdk.Download",
+      "enabled": true,
+      "module": "api1/files.openapi.json",
+      "method": "GET",
+      "path": "/xmleconf/{identifier}/{event}/"
+    },
+    {
+      "operation_id": "nfeDownloadIbsCbsEventXml",
+      "scope": "NfeFiles",
+      "request_type": "com.webmania.sdk.model.api1files.NfeDownloadIbsCbsEventXmlRequest",
+      "response_type": "com.webmania.sdk.Download",
+      "enabled": false,
+      "module": "api1/files.openapi.json",
+      "method": "GET",
+      "path": "/xmlevento/{uuid}/"
+    },
+    {
+      "operation_id": "fiscalDownloadReport",
+      "scope": "NfeFiles",
+      "request_type": "com.webmania.sdk.model.api1files.FiscalDownloadReportRequest",
+      "response_type": "com.webmania.sdk.Download",
+      "enabled": true,
+      "module": "api1/files.openapi.json",
+      "method": "GET",
+      "path": "/relatorio/{uuid}/"
+    },
+    {
+      "operation_id": "fiscalDownloadReportV2",
+      "scope": "NfeFiles",
+      "request_type": "com.webmania.sdk.model.api2reports.FiscalDownloadReportV2Request",
+      "response_type": "com.webmania.sdk.Download",
+      "enabled": true,
+      "module": "api2/reports.openapi.json",
+      "method": "GET",
+      "path": "/relatorios/{uuid}"
+    },
+    {
+      "operation_id": "fileGetNfseXml",
+      "scope": "EmitterFiles",
+      "request_type": "com.webmania.sdk.model.api2emitterfiles.FileGetNfseXmlRequest",
+      "response_type": "com.webmania.sdk.Download",
+      "enabled": true,
+      "module": "api2/emitter-files.openapi.json",
+      "method": "GET",
+      "path": "/xmlnfse/{identifier}"
+    },
+    {
+      "operation_id": "fileGetNfsePdf",
+      "scope": "EmitterFiles",
+      "request_type": "com.webmania.sdk.model.api2emitterfiles.FileGetNfsePdfRequest",
+      "response_type": "com.webmania.sdk.Download",
+      "enabled": true,
+      "module": "api2/emitter-files.openapi.json",
+      "method": "GET",
+      "path": "/nfse/{identifier}"
+    },
+    {
+      "operation_id": "fileGetNfseRpsPdf",
+      "scope": "EmitterFiles",
+      "request_type": "com.webmania.sdk.model.api2emitterfiles.FileGetNfseRpsPdfRequest",
+      "response_type": "com.webmania.sdk.Download",
+      "enabled": true,
+      "module": "api2/emitter-files.openapi.json",
+      "method": "GET",
+      "path": "/darps/{identifier}"
+    },
+    {
+      "operation_id": "fileGetCteXml",
+      "scope": "EmitterFiles",
+      "request_type": "com.webmania.sdk.model.api2emitterfiles.FileGetCteXmlRequest",
+      "response_type": "com.webmania.sdk.Download",
+      "enabled": true,
+      "module": "api2/emitter-files.openapi.json",
+      "method": "GET",
+      "path": "/xmlcte/{identifier}"
+    },
+    {
+      "operation_id": "fileGetCteCancelXml",
+      "scope": "EmitterFiles",
+      "request_type": "com.webmania.sdk.model.api2emitterfiles.FileGetCteCancelXmlRequest",
+      "response_type": "com.webmania.sdk.Download",
+      "enabled": true,
+      "module": "api2/emitter-files.openapi.json",
+      "method": "GET",
+      "path": "/xmlcte/{identifier}/cancelamento"
+    },
+    {
+      "operation_id": "fileGetCtePdf",
+      "scope": "EmitterFiles",
+      "request_type": "com.webmania.sdk.model.api2emitterfiles.FileGetCtePdfRequest",
+      "response_type": "com.webmania.sdk.Download",
+      "enabled": true,
+      "module": "api2/emitter-files.openapi.json",
+      "method": "GET",
+      "path": "/dacte/{identifier}"
+    },
+    {
+      "operation_id": "fileGetCteCorrectionXml",
+      "scope": "EmitterFiles",
+      "request_type": "com.webmania.sdk.model.api2emitterfiles.FileGetCteCorrectionXmlRequest",
+      "response_type": "com.webmania.sdk.Download",
+      "enabled": true,
+      "module": "api2/emitter-files.openapi.json",
+      "method": "GET",
+      "path": "/xmlcce/{identifier}"
+    },
+    {
+      "operation_id": "fileGetCteCorrectionPdf",
+      "scope": "EmitterFiles",
+      "request_type": "com.webmania.sdk.model.api2emitterfiles.FileGetCteCorrectionPdfRequest",
+      "response_type": "com.webmania.sdk.Download",
+      "enabled": true,
+      "module": "api2/emitter-files.openapi.json",
+      "method": "GET",
+      "path": "/dacce/{identifier}"
+    },
+    {
+      "operation_id": "fileGetMdfeXml",
+      "scope": "EmitterFiles",
+      "request_type": "com.webmania.sdk.model.api2emitterfiles.FileGetMdfeXmlRequest",
+      "response_type": "com.webmania.sdk.Download",
+      "enabled": true,
+      "module": "api2/emitter-files.openapi.json",
+      "method": "GET",
+      "path": "/xmlmdfe/{identifier}"
+    },
+    {
+      "operation_id": "fileGetMdfePdf",
+      "scope": "EmitterFiles",
+      "request_type": "com.webmania.sdk.model.api2emitterfiles.FileGetMdfePdfRequest",
+      "response_type": "com.webmania.sdk.Download",
+      "enabled": true,
+      "module": "api2/emitter-files.openapi.json",
+      "method": "GET",
+      "path": "/damdfe/{identifier}"
+    },
+    {
+      "operation_id": "fileGetNfcomXml",
+      "scope": "EmitterFiles",
+      "request_type": "com.webmania.sdk.model.api2emitterfiles.FileGetNfcomXmlRequest",
+      "response_type": "com.webmania.sdk.Download",
+      "enabled": true,
+      "module": "api2/emitter-files.openapi.json",
+      "method": "GET",
+      "path": "/xmlnfcom/{identifier}"
+    },
+    {
+      "operation_id": "fileGetNfcomCancelXml",
+      "scope": "EmitterFiles",
+      "request_type": "com.webmania.sdk.model.api2emitterfiles.FileGetNfcomCancelXmlRequest",
+      "response_type": "com.webmania.sdk.Download",
+      "enabled": true,
+      "module": "api2/emitter-files.openapi.json",
+      "method": "GET",
+      "path": "/xmlnfcom/{identifier}/cancelamento"
+    },
+    {
+      "operation_id": "fileGetNfcomPdf",
+      "scope": "EmitterFiles",
+      "request_type": "com.webmania.sdk.model.api2emitterfiles.FileGetNfcomPdfRequest",
+      "response_type": "com.webmania.sdk.Download",
+      "enabled": true,
+      "module": "api2/emitter-files.openapi.json",
+      "method": "GET",
+      "path": "/danfecom/{identifier}"
+    },
+    {
+      "operation_id": "fileGetDceXml",
+      "scope": "EmitterFiles",
+      "request_type": "com.webmania.sdk.model.api2emitterfiles.FileGetDceXmlRequest",
+      "response_type": "com.webmania.sdk.Download",
+      "enabled": true,
+      "module": "api2/emitter-files.openapi.json",
+      "method": "GET",
+      "path": "/xmldce/{identifier}"
+    },
+    {
+      "operation_id": "fileGetDceCancelXml",
+      "scope": "EmitterFiles",
+      "request_type": "com.webmania.sdk.model.api2emitterfiles.FileGetDceCancelXmlRequest",
+      "response_type": "com.webmania.sdk.Download",
+      "enabled": true,
+      "module": "api2/emitter-files.openapi.json",
+      "method": "GET",
+      "path": "/xmldce/{identifier}/cancelamento"
+    },
+    {
+      "operation_id": "fileGetDcePdf",
+      "scope": "EmitterFiles",
+      "request_type": "com.webmania.sdk.model.api2emitterfiles.FileGetDcePdfRequest",
+      "response_type": "com.webmania.sdk.Download",
+      "enabled": true,
+      "module": "api2/emitter-files.openapi.json",
+      "method": "GET",
+      "path": "/dace/{identifier}"
+    }
+  ],
+  "scopes": {
+    "Nfe": 21,
+    "Monitor": 19,
+    "Emitter": 29,
+    "Reseller": 3,
+    "NfeFiles": 15,
+    "EmitterFiles": 16
+  },
+  "model_aliases": 3030,
+  "typed_model_factories": 1253,
+  "blocking_api": true,
+  "coroutine_api": false,
+  "typed_factory_runtime_pin": true,
+  "default_config_runtime_pin": true
+}

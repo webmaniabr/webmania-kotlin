@@ -1,0 +1,41 @@
+package com.webmania.sdk.kotlin.models.api2emitterfiles
+
+// Fixed aliases preserve the exact qualified Java DTO runtime; no data or enums are erased.
+typealias FileGetCteCancelXmlRequest = com.webmania.sdk.model.api2emitterfiles.FileGetCteCancelXmlRequest
+fun fileGetCteCancelXmlRequest(configure: FileGetCteCancelXmlRequest.() -> Unit = {}): FileGetCteCancelXmlRequest { com.webmania.sdk.kotlin.RuntimePin.check(); return com.webmania.sdk.model.api2emitterfiles.FileGetCteCancelXmlRequest().apply(configure) }
+typealias FileGetCteCorrectionPdfRequest = com.webmania.sdk.model.api2emitterfiles.FileGetCteCorrectionPdfRequest
+fun fileGetCteCorrectionPdfRequest(configure: FileGetCteCorrectionPdfRequest.() -> Unit = {}): FileGetCteCorrectionPdfRequest { com.webmania.sdk.kotlin.RuntimePin.check(); return com.webmania.sdk.model.api2emitterfiles.FileGetCteCorrectionPdfRequest().apply(configure) }
+typealias FileGetCteCorrectionXmlRequest = com.webmania.sdk.model.api2emitterfiles.FileGetCteCorrectionXmlRequest
+fun fileGetCteCorrectionXmlRequest(configure: FileGetCteCorrectionXmlRequest.() -> Unit = {}): FileGetCteCorrectionXmlRequest { com.webmania.sdk.kotlin.RuntimePin.check(); return com.webmania.sdk.model.api2emitterfiles.FileGetCteCorrectionXmlRequest().apply(configure) }
+typealias FileGetCtePdfRequest = com.webmania.sdk.model.api2emitterfiles.FileGetCtePdfRequest
+fun fileGetCtePdfRequest(configure: FileGetCtePdfRequest.() -> Unit = {}): FileGetCtePdfRequest { com.webmania.sdk.kotlin.RuntimePin.check(); return com.webmania.sdk.model.api2emitterfiles.FileGetCtePdfRequest().apply(configure) }
+typealias FileGetCteXmlRequest = com.webmania.sdk.model.api2emitterfiles.FileGetCteXmlRequest
+fun fileGetCteXmlRequest(configure: FileGetCteXmlRequest.() -> Unit = {}): FileGetCteXmlRequest { com.webmania.sdk.kotlin.RuntimePin.check(); return com.webmania.sdk.model.api2emitterfiles.FileGetCteXmlRequest().apply(configure) }
+typealias FileGetDceCancelXmlRequest = com.webmania.sdk.model.api2emitterfiles.FileGetDceCancelXmlRequest
+fun fileGetDceCancelXmlRequest(configure: FileGetDceCancelXmlRequest.() -> Unit = {}): FileGetDceCancelXmlRequest { com.webmania.sdk.kotlin.RuntimePin.check(); return com.webmania.sdk.model.api2emitterfiles.FileGetDceCancelXmlRequest().apply(configure) }
+typealias FileGetDcePdfRequest = com.webmania.sdk.model.api2emitterfiles.FileGetDcePdfRequest
+fun fileGetDcePdfRequest(configure: FileGetDcePdfRequest.() -> Unit = {}): FileGetDcePdfRequest { com.webmania.sdk.kotlin.RuntimePin.check(); return com.webmania.sdk.model.api2emitterfiles.FileGetDcePdfRequest().apply(configure) }
+typealias FileGetDceXmlRequest = com.webmania.sdk.model.api2emitterfiles.FileGetDceXmlRequest
+fun fileGetDceXmlRequest(configure: FileGetDceXmlRequest.() -> Unit = {}): FileGetDceXmlRequest { com.webmania.sdk.kotlin.RuntimePin.check(); return com.webmania.sdk.model.api2emitterfiles.FileGetDceXmlRequest().apply(configure) }
+typealias FileGetMdfePdfRequest = com.webmania.sdk.model.api2emitterfiles.FileGetMdfePdfRequest
+fun fileGetMdfePdfRequest(configure: FileGetMdfePdfRequest.() -> Unit = {}): FileGetMdfePdfRequest { com.webmania.sdk.kotlin.RuntimePin.check(); return com.webmania.sdk.model.api2emitterfiles.FileGetMdfePdfRequest().apply(configure) }
+typealias FileGetMdfeXmlRequest = com.webmania.sdk.model.api2emitterfiles.FileGetMdfeXmlRequest
+fun fileGetMdfeXmlRequest(configure: FileGetMdfeXmlRequest.() -> Unit = {}): FileGetMdfeXmlRequest { com.webmania.sdk.kotlin.RuntimePin.check(); return com.webmania.sdk.model.api2emitterfiles.FileGetMdfeXmlRequest().apply(configure) }
+typealias FileGetNfcomCancelXmlRequest = com.webmania.sdk.model.api2emitterfiles.FileGetNfcomCancelXmlRequest
+fun fileGetNfcomCancelXmlRequest(configure: FileGetNfcomCancelXmlRequest.() -> Unit = {}): FileGetNfcomCancelXmlRequest { com.webmania.sdk.kotlin.RuntimePin.check(); return com.webmania.sdk.model.api2emitterfiles.FileGetNfcomCancelXmlRequest().apply(configure) }
+typealias FileGetNfcomPdfRequest = com.webmania.sdk.model.api2emitterfiles.FileGetNfcomPdfRequest
+fun fileGetNfcomPdfRequest(configure: FileGetNfcomPdfRequest.() -> Unit = {}): FileGetNfcomPdfRequest { com.webmania.sdk.kotlin.RuntimePin.check(); return com.webmania.sdk.model.api2emitterfiles.FileGetNfcomPdfRequest().apply(configure) }
+typealias FileGetNfcomXmlRequest = com.webmania.sdk.model.api2emitterfiles.FileGetNfcomXmlRequest
+fun fileGetNfcomXmlRequest(configure: FileGetNfcomXmlRequest.() -> Unit = {}): FileGetNfcomXmlRequest { com.webmania.sdk.kotlin.RuntimePin.check(); return com.webmania.sdk.model.api2emitterfiles.FileGetNfcomXmlRequest().apply(configure) }
+typealias FileGetNfsePdfRequest = com.webmania.sdk.model.api2emitterfiles.FileGetNfsePdfRequest
+fun fileGetNfsePdfRequest(configure: FileGetNfsePdfRequest.() -> Unit = {}): FileGetNfsePdfRequest { com.webmania.sdk.kotlin.RuntimePin.check(); return com.webmania.sdk.model.api2emitterfiles.FileGetNfsePdfRequest().apply(configure) }
+typealias FileGetNfseRpsPdfRequest = com.webmania.sdk.model.api2emitterfiles.FileGetNfseRpsPdfRequest
+fun fileGetNfseRpsPdfRequest(configure: FileGetNfseRpsPdfRequest.() -> Unit = {}): FileGetNfseRpsPdfRequest { com.webmania.sdk.kotlin.RuntimePin.check(); return com.webmania.sdk.model.api2emitterfiles.FileGetNfseRpsPdfRequest().apply(configure) }
+typealias FileGetNfseXmlRequest = com.webmania.sdk.model.api2emitterfiles.FileGetNfseXmlRequest
+fun fileGetNfseXmlRequest(configure: FileGetNfseXmlRequest.() -> Unit = {}): FileGetNfseXmlRequest { com.webmania.sdk.kotlin.RuntimePin.check(); return com.webmania.sdk.model.api2emitterfiles.FileGetNfseXmlRequest().apply(configure) }
+typealias FiscalFileError = com.webmania.sdk.model.api2emitterfiles.FiscalFileError
+fun fiscalFileError(configure: FiscalFileError.() -> Unit = {}): FiscalFileError { com.webmania.sdk.kotlin.RuntimePin.check(); return com.webmania.sdk.model.api2emitterfiles.FiscalFileError().apply(configure) }
+typealias FiscalFileIdentifier = com.webmania.sdk.model.api2emitterfiles.FiscalFileIdentifier
+typealias FiscalFileUuid = com.webmania.sdk.model.api2emitterfiles.FiscalFileUuid
+typealias NfsePdfPending = com.webmania.sdk.model.api2emitterfiles.NfsePdfPending
+fun nfsePdfPending(configure: NfsePdfPending.() -> Unit = {}): NfsePdfPending { com.webmania.sdk.kotlin.RuntimePin.check(); return com.webmania.sdk.model.api2emitterfiles.NfsePdfPending().apply(configure) }

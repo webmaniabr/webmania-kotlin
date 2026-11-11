@@ -1,0 +1,49 @@
+{
+  "format": 1,
+  "scope": "Pinned Maven runtime dependency archives",
+  "runtime": [
+    {
+      "group": "com.webmania",
+      "artifact": "webmania-sdk",
+      "version": "0.1.0-preview.9",
+      "jar_sha256": "29e262427ca8ec15918c2072020c674c64f88be9427efa949b92ddd802f494e3",
+      "pom_sha256": "b3e861266aa02862d6e23867976e84002a1369ba46615f48d5eee291c61daa64",
+      "sources_sha256": "14edc6f7103aad8c4247d79f2a4698d590e504182df758e093de47774ef9efef"
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "artifact": "kotlin-stdlib",
+      "version": "2.4.21",
+      "jar_sha256": "bd8250210584cb659847dce9cda660f8e9906e5def7fbebcea93dc6dcb6a88a3",
+      "pom_sha256": "b92b23ec9c444b2578b9852447565efc72c24b3ea77b4c3bf4e644f685eeef07"
+    },
+    {
+      "group": "org.jetbrains",
+      "artifact": "annotations",
+      "version": "13.0",
+      "jar_sha256": "ace2a10dc8e2d5fd34925ecac03e4988b2c0f851650c94b8cef49ba1bd111478",
+      "pom_sha256": "965aeb2bedff369819bdde1bf7a0b3b89b8247dd69c88b86375d76163bb8c397"
+    },
+    {
+      "group": "com.fasterxml.jackson.core",
+      "artifact": "jackson-databind",
+      "version": "2.21.7",
+      "jar_sha256": "1290c2795e93e8a6861a6c4d9ff0d844d32f5ea178362cb2721edf5561e828b1",
+      "pom_sha256": "3191130a3cb7be2f1f05d4e68765e23a1880db719a23ee368a14a8b0477f7bb5"
+    },
+    {
+      "group": "com.fasterxml.jackson.core",
+      "artifact": "jackson-core",
+      "version": "2.21.7",
+      "jar_sha256": "8c5623b98f32d5f7e1287ff61ed50e08ab7b11381e991fff89327faabba42261",
+      "pom_sha256": "70233c57a076fadb2f3af1ca25647dc65116d8c135df6c3cb79c95a2560eafce"
+    },
+    {
+      "group": "com.fasterxml.jackson.core",
+      "artifact": "jackson-annotations",
+      "version": "2.21",
+      "jar_sha256": "53ca085f4a150f703f49e1aabd935bd03b43e1ea3d55d135438292af22cef56b",
+      "pom_sha256": "71cac5392151e2a528cc9a09179f0a334179f05c52f8e596cf58ddf12bb27f2b"
+    }
+  ]
+}

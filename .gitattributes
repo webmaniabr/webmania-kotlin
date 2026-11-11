@@ -1,0 +1,2 @@
+# Exact synthetic representations retain binary bytes and PDF xref spacing.
+src/test/resources/file-fixtures/* binary

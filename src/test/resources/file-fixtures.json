@@ -1,0 +1,32 @@
+{
+  "provenance": "Reused synthetic sealed Java preview.3 dependency-review fixtures; new Kotlin executions are author controls, not independent Kotlin review; Java8 retains unsupported V2/R3 historical input and adds coherent Standard V1/R2 40-bit positive with deterministic actual owner/user authentication metadata",
+  "fixtures": [
+    {
+      "name": "pdf-actual-rc4-encrypted",
+      "kind": "ENCRYPTED_PDF",
+      "media": "application/pdf",
+      "route": "pdf",
+      "sha256": "bca1b8f5cfa367e783ab0819ea9868f5795419a4d9b8aaafca73cd6b37c234e6",
+      "size": 826,
+      "supported": false,
+      "disposition": "unsupported bounded PDF encryption V2/R3/128-bit; expected PROTOCOL, original bytes/hash preserved"
+    },
+    {
+      "name": "zip-protected",
+      "kind": "ENCRYPTED_ZIP",
+      "media": "application/zip",
+      "route": "xml",
+      "sha256": "b0dbd74b9dcfaf58fc45ac031e5258c0dff863c903efd56382fd9dd30ed5eefa",
+      "size": 136
+    },
+    {
+      "name": "pdf-bounded-rc4-r2-encrypted",
+      "kind": "ENCRYPTED_PDF",
+      "media": "application/pdf",
+      "route": "pdf",
+      "sha256": "dd142120bef41993fdf081c0571447f879b9a33004173c456cdcf4e97ccb5ba2",
+      "size": 643,
+      "supported": true
+    }
+  ]
+}

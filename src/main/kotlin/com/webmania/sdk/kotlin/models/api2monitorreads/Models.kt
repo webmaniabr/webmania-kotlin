@@ -1,0 +1,39 @@
+package com.webmania.sdk.kotlin.models.api2monitorreads
+
+// Fixed aliases preserve the exact qualified Java DTO runtime; no data or enums are erased.
+typealias MonitorAddress = com.webmania.sdk.model.api2monitorreads.MonitorAddress
+fun monitorAddress(configure: MonitorAddress.() -> Unit = {}): MonitorAddress { com.webmania.sdk.kotlin.RuntimePin.check(); return com.webmania.sdk.model.api2monitorreads.MonitorAddress().apply(configure) }
+typealias MonitorAddressCodigoMunicipio = com.webmania.sdk.model.api2monitorreads.MonitorAddressCodigoMunicipio
+typealias MonitorAvailableMunicipalities = com.webmania.sdk.model.api2monitorreads.MonitorAvailableMunicipalities
+fun monitorAvailableMunicipalities(configure: MonitorAvailableMunicipalities.() -> Unit = {}): MonitorAvailableMunicipalities { com.webmania.sdk.kotlin.RuntimePin.check(); return com.webmania.sdk.model.api2monitorreads.MonitorAvailableMunicipalities().apply(configure) }
+typealias MonitorAvailableMunicipality = com.webmania.sdk.model.api2monitorreads.MonitorAvailableMunicipality
+fun monitorAvailableMunicipality(configure: MonitorAvailableMunicipality.() -> Unit = {}): MonitorAvailableMunicipality { com.webmania.sdk.kotlin.RuntimePin.check(); return com.webmania.sdk.model.api2monitorreads.MonitorAvailableMunicipality().apply(configure) }
+typealias MonitorCompany = com.webmania.sdk.model.api2monitorreads.MonitorCompany
+fun monitorCompany(configure: MonitorCompany.() -> Unit = {}): MonitorCompany { com.webmania.sdk.kotlin.RuntimePin.check(); return com.webmania.sdk.model.api2monitorreads.MonitorCompany().apply(configure) }
+typealias MonitorCompanyPage = com.webmania.sdk.model.api2monitorreads.MonitorCompanyPage
+fun monitorCompanyPage(configure: MonitorCompanyPage.() -> Unit = {}): MonitorCompanyPage { com.webmania.sdk.kotlin.RuntimePin.check(); return com.webmania.sdk.model.api2monitorreads.MonitorCompanyPage().apply(configure) }
+typealias MonitorDownloadStatistics = com.webmania.sdk.model.api2monitorreads.MonitorDownloadStatistics
+fun monitorDownloadStatistics(configure: MonitorDownloadStatistics.() -> Unit = {}): MonitorDownloadStatistics { com.webmania.sdk.kotlin.RuntimePin.check(); return com.webmania.sdk.model.api2monitorreads.MonitorDownloadStatistics().apply(configure) }
+typealias MonitorDownloadStatisticsEmpresasItem = com.webmania.sdk.model.api2monitorreads.MonitorDownloadStatisticsEmpresasItem
+fun monitorDownloadStatisticsEmpresasItem(configure: MonitorDownloadStatisticsEmpresasItem.() -> Unit = {}): MonitorDownloadStatisticsEmpresasItem { com.webmania.sdk.kotlin.RuntimePin.check(); return com.webmania.sdk.model.api2monitorreads.MonitorDownloadStatisticsEmpresasItem().apply(configure) }
+typealias MonitorError = com.webmania.sdk.model.api2monitorreads.MonitorError
+fun monitorError(configure: MonitorError.() -> Unit = {}): MonitorError { com.webmania.sdk.kotlin.RuntimePin.check(); return com.webmania.sdk.model.api2monitorreads.MonitorError().apply(configure) }
+typealias MonitorGetCompanyMunicipalityRequest = com.webmania.sdk.model.api2monitorreads.MonitorGetCompanyMunicipalityRequest
+fun monitorGetCompanyMunicipalityRequest(configure: MonitorGetCompanyMunicipalityRequest.() -> Unit = {}): MonitorGetCompanyMunicipalityRequest { com.webmania.sdk.kotlin.RuntimePin.check(); return com.webmania.sdk.model.api2monitorreads.MonitorGetCompanyMunicipalityRequest().apply(configure) }
+typealias MonitorGetCompanyRequest = com.webmania.sdk.model.api2monitorreads.MonitorGetCompanyRequest
+fun monitorGetCompanyRequest(configure: MonitorGetCompanyRequest.() -> Unit = {}): MonitorGetCompanyRequest { com.webmania.sdk.kotlin.RuntimePin.check(); return com.webmania.sdk.model.api2monitorreads.MonitorGetCompanyRequest().apply(configure) }
+typealias MonitorGetDownloadStatisticsRequest = com.webmania.sdk.model.api2monitorreads.MonitorGetDownloadStatisticsRequest
+fun monitorGetDownloadStatisticsRequest(configure: MonitorGetDownloadStatisticsRequest.() -> Unit = {}): MonitorGetDownloadStatisticsRequest { com.webmania.sdk.kotlin.RuntimePin.check(); return com.webmania.sdk.model.api2monitorreads.MonitorGetDownloadStatisticsRequest().apply(configure) }
+typealias MonitorListAvailableMunicipalitiesRequest = com.webmania.sdk.model.api2monitorreads.MonitorListAvailableMunicipalitiesRequest
+fun monitorListAvailableMunicipalitiesRequest(configure: MonitorListAvailableMunicipalitiesRequest.() -> Unit = {}): MonitorListAvailableMunicipalitiesRequest { com.webmania.sdk.kotlin.RuntimePin.check(); return com.webmania.sdk.model.api2monitorreads.MonitorListAvailableMunicipalitiesRequest().apply(configure) }
+typealias MonitorListAvailableMunicipalitiesResponse = com.webmania.sdk.model.api2monitorreads.MonitorListAvailableMunicipalitiesResponse
+typealias MonitorListCompaniesRequest = com.webmania.sdk.model.api2monitorreads.MonitorListCompaniesRequest
+fun monitorListCompaniesRequest(configure: MonitorListCompaniesRequest.() -> Unit = {}): MonitorListCompaniesRequest { com.webmania.sdk.kotlin.RuntimePin.check(); return com.webmania.sdk.model.api2monitorreads.MonitorListCompaniesRequest().apply(configure) }
+typealias MonitorListCompanyMunicipalitiesRequest = com.webmania.sdk.model.api2monitorreads.MonitorListCompanyMunicipalitiesRequest
+fun monitorListCompanyMunicipalitiesRequest(configure: MonitorListCompanyMunicipalitiesRequest.() -> Unit = {}): MonitorListCompanyMunicipalitiesRequest { com.webmania.sdk.kotlin.RuntimePin.check(); return com.webmania.sdk.model.api2monitorreads.MonitorListCompanyMunicipalitiesRequest().apply(configure) }
+typealias MonitorMunicipalityPage = com.webmania.sdk.model.api2monitorreads.MonitorMunicipalityPage
+fun monitorMunicipalityPage(configure: MonitorMunicipalityPage.() -> Unit = {}): MonitorMunicipalityPage { com.webmania.sdk.kotlin.RuntimePin.check(); return com.webmania.sdk.model.api2monitorreads.MonitorMunicipalityPage().apply(configure) }
+typealias MonitorMunicipalityRegistration = com.webmania.sdk.model.api2monitorreads.MonitorMunicipalityRegistration
+fun monitorMunicipalityRegistration(configure: MonitorMunicipalityRegistration.() -> Unit = {}): MonitorMunicipalityRegistration { com.webmania.sdk.kotlin.RuntimePin.check(); return com.webmania.sdk.model.api2monitorreads.MonitorMunicipalityRegistration().apply(configure) }
+typealias MonitorPagination = com.webmania.sdk.model.api2monitorreads.MonitorPagination
+fun monitorPagination(configure: MonitorPagination.() -> Unit = {}): MonitorPagination { com.webmania.sdk.kotlin.RuntimePin.check(); return com.webmania.sdk.model.api2monitorreads.MonitorPagination().apply(configure) }

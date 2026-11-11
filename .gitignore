@@ -1,0 +1,8 @@
+/target/
+/.maven-local/
+/artifacts/
+*.class
+.DS_Store
+
+# macOS metadata
+._*

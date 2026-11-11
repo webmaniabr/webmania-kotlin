@@ -1,0 +1,14 @@
+Webmania Kotlin SDK 0.1.0-alpha.10
+Copyright 2026 Webmania. Proprietary Webmania Terms of Use apply.
+
+This artifact contains the Kotlin facade classes and Kotlin typealias metadata.
+It does not bundle dependency class files. Maven resolves the following runtime dependencies:
+- com.webmania:webmania-sdk:0.1.0-preview.9 — Proprietary Webmania Terms of Use.
+- org.jetbrains.kotlin:kotlin-stdlib:2.4.21 — Apache License 2.0.
+- org.jetbrains:annotations:13.0 — Apache License 2.0.
+- com.fasterxml.jackson.core:jackson-databind:2.21.7 — Apache License 2.0.
+- com.fasterxml.jackson.core:jackson-core:2.21.7 — Apache License 2.0.
+- com.fasterxml.jackson.core:jackson-annotations:2.21 — Apache License 2.0.
+
+The original dependency archives retain their respective copyright and license notices.
+See dependencies.lock.json for exact dependency archive identities.
